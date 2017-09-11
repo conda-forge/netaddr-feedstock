@@ -14,9 +14,7 @@ Summary: Pythonic manipulation of IPv4, IPv6, CIDR, EUI and MAC network addresse
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/netaddr-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/netaddr-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/netaddr-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/netaddr-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/netaddr-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/netaddr-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/netaddr-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/netaddr-feedstock)
 
 Current release info
 ====================

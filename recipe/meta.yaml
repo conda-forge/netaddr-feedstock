@@ -1,5 +1,5 @@
 {% set name = "netaddr" %}
-{% set version = "0.7.19" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 38aeec7cdd035081d3a4c306394b19d677623bf76fa0913f6695127c7753aefd
+  sha256: d6cc57c7a07b1d9d2e917aa8b36ae8ce61c35ba3fcd1b83ca31c5a0ee2b5a243
 
 build:
   noarch: python
@@ -35,7 +35,7 @@ about:
   license_file: LICENSE
   license: BSD 3-clause
   license_family: BSD
-  summary: 'Pythonic manipulation of IPv4, IPv6, CIDR, EUI and MAC network addresses'
+  summary: Pythonic manipulation of IPv4, IPv6, CIDR, EUI and MAC network addresses
   dev_url: https://github.com/drkjam/netaddr
   doc_url: https://netaddr.readthedocs.io/en/latest/
 

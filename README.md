@@ -3,13 +3,13 @@ About netaddr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/netaddr-feedstock/blob/main/LICENSE.txt)
 
-Home: http://github.com/drkjam/netaddr
+Home: http://github.com/netaddr/netaddr
 
 Package license: BSD-3-Clause
 
 Summary: Pythonic manipulation of IPv4, IPv6, CIDR, EUI and MAC network addresses
 
-Development: https://github.com/drkjam/netaddr
+Development: https://github.com/netaddr/netaddr
 
 Documentation: https://netaddr.readthedocs.io/en/latest/
 

@@ -12,14 +12,16 @@ build:
   noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
+  entry_points:
+    - netaddr = "netaddr.cli:main"
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - setuptools
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
@@ -29,12 +31,12 @@ test:
     - netaddr.strategy
 
 about:
-  home: http://github.com/drkjam/netaddr
-  license_file: LICENSE
+  home: http://github.com/netaddr/netaddr
+  license_file: LICENSE.rst
   license: BSD-3-Clause
   license_family: BSD
   summary: 'Pythonic manipulation of IPv4, IPv6, CIDR, EUI and MAC network addresses'
-  dev_url: https://github.com/drkjam/netaddr
+  dev_url: https://github.com/netaddr/netaddr
   doc_url: https://netaddr.readthedocs.io/en/latest/
 
 extra:
